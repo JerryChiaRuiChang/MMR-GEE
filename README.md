@@ -4,7 +4,7 @@ The data that support the findings in this paper are openly available at https:/
 
 ### `data-application` folder
 Contains R code for data cleaning and running the analyses for the Pro-CCM data:
-- `data-application.R`: main code file that (1) cleans and reorganizes the data from Proactive community case management decreased malaria prevalence in rural Madagascar: results from a cluster randomized trial (Ratovoson et. al., 2022) and (2) fits four estimators (CC-GEE, IPW-GEE, MIPW-GEE-EM, and MMR-GEE) to the cleaned data.
+- `data-application.R`: main code file that (1) cleans and reorganizes the data from the manuscript "Proactive Community Case Management Decreased Malaria Prevalence in Rural Madagascar: Results from a Cluster Randomized Trial" (Ratovoson et. al., 2022) and (2) fits four estimators (CC-GEE, IPW-GEE, MIPW-GEE-EM, and MMR-GEE) to the cleaned data.
 - `data-application-bootstrap.R`: code for obtaining standard error estimates through the cluster bootstrap approach.
 - `EM.R`: is the helper function for implementing the EM algorithm. 
 - `MR.R`: is the helper function for estimating the multiply robust weights.
